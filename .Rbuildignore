@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^renv$
+^renv\.lock$
+^Dockerfile$
+^README\.md$
+^LICENSE$
+^benchmark_scripts$
+^\.github$

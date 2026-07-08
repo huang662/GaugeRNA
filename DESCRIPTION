@@ -1,0 +1,27 @@
+Package: GaugeRNA
+Type: Package
+Title: GaugeRNA: A Gauge-Invariant Audit Framework for RNA-seq Differential Expression
+Version: 0.1.0
+Authors@R: person("GaugeRNA", "Research Group", email = "gaugerna@research.org", role = c("aut", "cre"))
+Description: A gauge-invariant audit framework for RNA-seq differential expression analysis.
+    Computes Gauge Instability Scores (GIS) to quantify the sensitivity of differential
+    expression results to arbitrary normalization choices (gauge choices). Provides
+    gamma projection, gauge decomposition, and automated audit report generation.
+    Designed for reproducible validation of RNA-seq differential expression findings.
+License: MIT + file LICENSE
+URL: https://github.com/huang662/GaugeRNA
+BugReports: https://github.com/huang662/GaugeRNA/issues
+Depends:
+    R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    DESeq2,
+    ggplot2
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.0
